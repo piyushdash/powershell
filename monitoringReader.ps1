@@ -1,2 +1,1 @@
-Param($name)
-New-AzRoleAssignment -ObjectId $name -RoleDefinitionName "Monitoring Reader"
+New-AzRoleAssignment -ObjectId ${Env:ObjectId} -RoleDefinitionName "Monitoring Reader"
