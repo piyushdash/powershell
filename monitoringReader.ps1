@@ -1,2 +1,2 @@
-param([string] $name)
+Param($name)
 New-AzRoleAssignment -ObjectId $name -RoleDefinitionName "Monitoring Reader"
