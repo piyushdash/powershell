@@ -1,1 +1,1 @@
-New-AzRoleAssignment -ObjectId ${Env:ObjectId} -RoleDefinitionName "Monitoring Reader"
+New-AzRoleAssignment -ObjectId $env:ObjectId -RoleDefinitionName "Monitoring Reader"
